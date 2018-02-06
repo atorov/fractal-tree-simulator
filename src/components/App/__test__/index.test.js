@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from '../';
 
-// window.p5 = function() {};
+window.p5 = function() {};
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
