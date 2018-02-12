@@ -11,7 +11,7 @@ class P5Wrapper extends Component {
 
   componentDidMount() {
     this.canvas = new window.p5(sketch, "app-p5_container");
-    setTimeout(() => this.canvas.pushProps({ ...this.props }), 100);
+    setTimeout(() => this.canvas.pushProps({ ...this.props }), 1000);
   }
 
   componentWillReceiveProps(nextProps) {
