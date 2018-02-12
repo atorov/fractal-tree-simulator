@@ -41,7 +41,10 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
+        {/* Header --------------------------------------------------------- */}
         <Header />
+
+        {/* Main content --------------------------------------------------- */}
         <div
           className="jumbotron"
           style={{ marginTop: "-8px", background: "rgb(120, 120, 120)" }}
@@ -57,6 +60,14 @@ export default class App extends Component {
             plants={this.state.p5Props.plants}
             onSliderChange={this.onSliderChange}
           />
+
+          {/* Source code link --------------------------------------------- */}
+          <br />
+          <p style={{ textAlign: "center" }}>
+            <a href="https://github.com/atorov/fractal-tree-simulator">
+              <img border="0" alt="github logo" src="/img/github-logo.png" width="auto" height="28px" style={{ verticalAlign: "middle" }} />
+            </a>
+          </p>
         </div>
       </div>
     );
