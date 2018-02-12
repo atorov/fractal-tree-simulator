@@ -1,6 +1,6 @@
 {
   "name": "fractal-tree-simulator",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "private": true,
   "description": "An advanced example of using React with p5.js",
   "keywords": [
