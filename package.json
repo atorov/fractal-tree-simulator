@@ -1,7 +1,31 @@
 {
-  "name": "fts",
-  "version": "2.0.3",
+  "name": "fractal-tree-simulator",
+  "version": "2.0.4",
   "private": true,
+  "description": "An advanced example of using React with p5.js",
+  "keywords": [
+    "react",
+    "reactjs",
+    "p5",
+    "p5js",
+    "p5.js",
+    "processing",
+    "fractals",
+    "tree",
+    "simulator",
+    "physics"
+  ],
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atorov/fractal-tree-simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atorov/fractal-tree-simulator/issues"
+  },
+  "author": "atorov",
+  "license": "MIT",
+  "main": "src/index.js",
   "dependencies": {
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
