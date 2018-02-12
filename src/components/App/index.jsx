@@ -8,6 +8,7 @@ import config from "../../lib/config/";
 import { getPlant } from "../../lib/sliders/";
 
 export default class App extends Component {
+  // Constructor ---------------------------------------------------------------
   constructor() {
     super();
 

@@ -9,7 +9,6 @@ export default function sketch(p) {
 
   // Private members -----------------------------------------------------------
   let props = {};
-
   let plants = [];
 
   // Private classes -----------------------------------------------------------
@@ -130,7 +129,6 @@ export default function sketch(p) {
     }
     else if (plants.length && !$.isEmptyObject(props)) {
       // console.log("::: draw()/loop props:", props);
-      // p.background(238);
       p.background(120, 120, 120);
 
       plants.forEach((plant, index) => {
