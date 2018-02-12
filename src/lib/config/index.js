@@ -7,7 +7,7 @@ export default {
       key: "recursionDepth",
       min: 0,
       init: 7,
-      max: 8,
+      max: 7,
       step: 1,
       precision: 0,
     },
