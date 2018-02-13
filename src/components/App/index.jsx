@@ -19,6 +19,7 @@ export default class App extends Component {
 
     this.state = {
       p5Props: {
+        status: "",
         plants,
       },
     };
@@ -30,6 +31,8 @@ export default class App extends Component {
     plants[index].branchesNum = num;
     this.setState({ p5Props: { ...this.state.p5Props, plants } });
   }
+
+  onReady = () => this.setState({ status: "ready" });
 
   onSliderChange = (key) => (event) => {
     const plants = $.extend(true, [], this.state.p5Props.plants);
@@ -53,6 +56,7 @@ export default class App extends Component {
           <P5Wrapper
             {...this.state.p5Props}
             getBranchesNum={this.getBranchesNum}
+            onReady={this.onReady}
           />
 
           {/* Control panel ------------------------------------------------ */}
