@@ -29,7 +29,12 @@ class P5Wrapper extends Component {
 
   render() {
     // console.log("::: P5Wrapper.props:", this.props);
-    return <div id="app-p5_container" style={{ width: "fit-content", margin: "auto" }} />;
+    return (
+      <div
+        id="app-p5_container"
+        style={{ width: "100%", textAlign: "center" }}
+      />
+    );
   }
 }
 
